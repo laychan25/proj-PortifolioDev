@@ -52,4 +52,14 @@
     padding: 30px;
    }
 
+   .cursos{
+    display: block;
+    align-items: center;
+   }
+
+   .links{
+    font-size: 20px;
+   padding: 3px;
+   }
+
 }
