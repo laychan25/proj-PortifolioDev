@@ -5,11 +5,14 @@ html {
 
 body {
   background: rgb(11,1,1);
-  background: linear-gradient(90deg, rgba(11,1,1,1) 0%, rgba(181,34,74,1) 56%, rgba(0,255,132,1) 100%);
+  background: linear-gradient(90deg, rgba(11,1,1,1) 0%, rgba(181,34,74,1) 56%, rgba(0,255,132,1) 100%) fixed ;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
   max-width: 1120px;
+  height: 100vh;
+  width: 100vh;
 }
+
 
 .cabecalho {
   display: flex;
@@ -49,7 +52,6 @@ body {
 }
 
   .container {
-   padding: 13px;
    list-style: none;
    font-size: 20px;
    padding: 10px 20px;
